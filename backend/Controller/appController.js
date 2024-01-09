@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //Init Json data
+=======
+//Init json data
+>>>>>>> 2774569e921d40b162d1fcfa4b9d74b091266508
 const data = require('../JsonData/db.json');
 //Inint tasks
 const tasks = data.tasks;

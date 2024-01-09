@@ -1,5 +1,7 @@
-//Init tasks
-const tasks = require('../JsonData/db.json');
+//Init Json data
+const data = require('../JsonData/db.json');
+//Inint tasks
+const tasks = data.tasks;
 //init uuid
 const uuid = require('uuid');
 //Getting all data

@@ -8,7 +8,7 @@ app.use(express.json());
 //Using body parser
 app.use(express.urlencoded({extended: false}));
 //Using App Api Router Middleware
-app.use('/app-api/tasks', require("./ApiRoutes/routes.js"));
+app.use('/app-api/tasks', require("./backend/ApiRoutes/routes.js"));
 
 
 //Init app default route
@@ -17,6 +17,6 @@ app.get('/', (req, res) => {
 });
 
 //Creating the Server
-app.listen(8000, () => {
-    console.log("App Listen On Port, 8000");
+app.listen(3000, () => {
+    console.log("App Listen On Port, 3000");
 });

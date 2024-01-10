@@ -8,7 +8,7 @@ app.use(express.json());
 //Using body parser
 app.use(express.urlencoded({extended: false}));
 //Using App Api Router Middleware
-app.use('/app-api/tasks', require("./backend/ApiRoutes/routes.js"));
+app.use('/app-api', require("./backend/ApiRoutes/routes.js"));
 
 
 //Init app default route
